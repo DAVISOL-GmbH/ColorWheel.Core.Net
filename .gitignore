@@ -396,3 +396,7 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+
+# Package Logo Drafts
+/Logo/*.ai
+/Logo/Artboard*.*

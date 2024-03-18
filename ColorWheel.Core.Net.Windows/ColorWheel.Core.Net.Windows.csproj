@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFrameworks>net472;net481;net6.0-windows;net7.0-windows;net8.0-windows</TargetFrameworks>
+		<!--<ImplicitUsings>enable</ImplicitUsings>-->
+		<!--<Nullable>enable</Nullable>-->
+		<UseWPF>true</UseWPF>
+		<LangVersion>8.0</LangVersion>
+		<Company>DAVISOL GmbH</Company>
+		<PackageId>ColorWheel.Core.Net</PackageId>
+		<Title>ColorWheel.Core for Windows</Title>
+		<Description>The ColorWheel.Core package for Windows using WPF. Ported to .NET by DAVISOL GmbH. Provides helper methods to work with colors and brushes in WPF.</Description>
+		<Product>ColorWheel</Product>
+		<Copyright>Copyright ©2011 Andriy Syrov, Copyright ©2024 DAVISOL GmbH</Copyright>
+		<AssemblyName>ColorWheel.Core</AssemblyName>
+		<RootNamespace>ColorWheel.Core</RootNamespace>
+		<PackageTags>ColorWheel helper color transformation lighten darken net48 net6 net8 netstandard2 davisol</PackageTags>
+		<Authors>Andriy Syrov, upgraded to .NET by DAVISOL GmbH</Authors>
+		<GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+		<PackageIcon>ColorWheel_NugetImage.png</PackageIcon>
+		<PackageProjectUrl>https://github.com/DAVISOL-GmbH/ColorWheel.Core.Net</PackageProjectUrl>
+		<PackageLicenseFile>LICENSE</PackageLicenseFile>
+		<PackageIconUrl>https://github.com/DAVISOL-GmbH/ColorWheel.Core.Net/blob/main/ColorWheel.Core.Net.Windows/ColorWheel_NugetImage.png</PackageIconUrl>
+		<RepositoryUrl>https://github.com/DAVISOL-GmbH/ColorWheel.Core.Net/tree/main</RepositoryUrl>
+		<Version>2.0.0-DEV</Version>
+		<OutDir></OutDir>
+		<GenerateDocumentationFile>False</GenerateDocumentationFile>
+		<SignAssembly>False</SignAssembly>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+	</PropertyGroup>
+
+</Project>

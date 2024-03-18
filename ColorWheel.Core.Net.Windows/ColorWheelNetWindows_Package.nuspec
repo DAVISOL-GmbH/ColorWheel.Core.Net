@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <!-- The identifier that must be unique within the hosting gallery -->
+    <id>ColorWheel.Core.Net</id>
+
+    <!-- The package version number that is used when resolving dependencies -->
+    <version>$version$</version>
+
+    <!-- Authors contain text that appears directly on the gallery -->
+    <authors>Andriy Syrov, upgraded to .NET by DAVISOL GmbH</authors>
+
+    <!-- Owners are typically nuget.org identities that allow gallery
+            users to easily find other packages by the same owners.  -->
+    <owners>Andriy Syrov</owners>
+
+    <!-- License and project URLs provide links for the gallery -->
+    <license type="expression">BSD-3-Clause</license>
+    <projectUrl>https://github.com/DAVISOL-GmbH/ColorWheel.Core.Net</projectUrl>
+
+    <!-- The icon is used in Visual Studio's package manager UI -->
+    <iconUrl>https://github.com/DAVISOL-GmbH/ColorWheel.Core.Net/blob/main/ColorWheel.Core.Net.Windows/ColorWheel_NugetImage.png</iconUrl>
+
+    <!-- If true, this value prompts the user to accept the license when
+            installing the package. -->
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+
+    <!-- The description can be used in package manager UI. Note that the
+            nuget.org gallery uses information you add in the portal. -->
+    <description>The ColorWheel.Core package for Windows using WPF. Ported to .NET by DAVISOL GmbH. Provides helper methods to work with colors and brushes in WPF.</description>
+
+    <!-- Copyright information -->
+    <copyright>Copyright ©2011 Andriy Syrov, Copyright ©2024 DAVISOL GmbH</copyright>
+
+    <!-- Tags appear in the gallery and can be used for tag searches -->
+    <tags>ColorWheel helper color transformation lighten darken net48 net6 net8 netstandard2 davisol</tags>
+
+    <releaseNotes>NET fork of ColorWheel.Core NuGet package: https://www.nuget.org/packages/ColorWheel.Core</releaseNotes>
+      
+      <!-- Dependencies are automatically installed when the package is installed -->
+    <dependencies>
+    </dependencies>
+  </metadata>
+  <files>
+      
+    <!-- .Net Framework 4.7.2 -->
+    <file src="bin\Release\net472\ColorWheel.Core.dll" target="lib\net472\ColorWheel.Core.dll" />
+      
+    <!-- .Net Framework 4.8.1 -->
+    <file src="bin\Release\net481\ColorWheel.Core.dll" target="lib\net481\ColorWheel.Core.dll" />
+
+    <!-- .Net 6.0 -->
+    <file src="bin\Release\net6.0\ColorWheel.Core.dll" target="lib\net6.0\ColorWheel.Core.dll" />
+
+	  <!-- .Net 7.0 -->
+	  <file src="bin\Release\net7.0\ColorWheel.Core.dll" target="lib\net7.0\ColorWheel.Core.dll" />
+
+	  <!-- .Net 8.0 -->
+	  <file src="bin\Release\net8.0\ColorWheel.Core.dll" target="lib\net8.0\ColorWheel.Core.dll" />
+
+  </files>
+</package>
