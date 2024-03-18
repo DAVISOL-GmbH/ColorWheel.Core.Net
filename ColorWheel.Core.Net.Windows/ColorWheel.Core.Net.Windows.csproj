@@ -20,7 +20,7 @@
 		<PackageIcon>ColorWheel_NugetImage.png</PackageIcon>
 		<PackageProjectUrl>https://github.com/DAVISOL-GmbH/ColorWheel.Core.Net</PackageProjectUrl>
 		<PackageLicenseFile>LICENSE</PackageLicenseFile>
-		<PackageIconUrl>https://github.com/DAVISOL-GmbH/ColorWheel.Core.Net/blob/main/ColorWheel.Core.Net.Windows/ColorWheel_NugetImage.png</PackageIconUrl>
+		<PackageIconUrl>https://github.com/DAVISOL-GmbH/ColorWheel.Core.Net/blob/main/ColorWheel.Core.Net.Windows/ColorWheelNetWindows_Package.nuspec</PackageIconUrl>
 		<RepositoryUrl>https://github.com/DAVISOL-GmbH/ColorWheel.Core.Net/tree/main</RepositoryUrl>
 		<Version>2.0.0-DEV</Version>
 		<OutDir></OutDir>

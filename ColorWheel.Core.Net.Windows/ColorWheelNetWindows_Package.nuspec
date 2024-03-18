@@ -19,7 +19,7 @@
     <projectUrl>https://github.com/DAVISOL-GmbH/ColorWheel.Core.Net</projectUrl>
 
     <!-- The icon is used in Visual Studio's package manager UI -->
-    <iconUrl>https://github.com/DAVISOL-GmbH/ColorWheel.Core.Net/blob/main/ColorWheel.Core.Net.Windows/ColorWheel_NugetImage.png</iconUrl>
+    <iconUrl>https://github.com/DAVISOL-GmbH/ColorWheel.Core.Net/blob/main/ColorWheel.Core.Net.Windows/ColorWheelNetWindows_Package.nuspec</iconUrl>
 
     <!-- If true, this value prompts the user to accept the license when
             installing the package. -->
