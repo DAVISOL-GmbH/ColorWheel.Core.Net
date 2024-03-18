@@ -19,7 +19,6 @@ Package is compatible with Windows only (depends on WPF). Supports the following
 - .NET 8
 - ... and compatible versions
 
-Copyright (c) 2011, Andriy Syrov
-Copyright (c) 2024, DAVISOL GmbH
+Copyright (c) 2011 Andriy Syrov, Copyright (c) 2024 DAVISOL GmbH
 
 Published under BSD-3 license, see LICENSE file for details.
