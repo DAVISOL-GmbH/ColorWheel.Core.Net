@@ -19,8 +19,8 @@
 		<GeneratePackageOnBuild>false</GeneratePackageOnBuild>
 		<PackageIcon>ColorWheel_NugetImage.png</PackageIcon>
 		<PackageProjectUrl>https://github.com/DAVISOL-GmbH/ColorWheel.Core.Net</PackageProjectUrl>
-		<!--<PackageLicenseFile>../LICENSE</PackageLicenseFile>-->
-		<PackageLicenseExpression>BSD-3-Clause</PackageLicenseExpression>
+		<PackageLicenseFile>LICENSE</PackageLicenseFile>
+		<!--<PackageLicenseExpression>BSD-3-Clause</PackageLicenseExpression>-->
 		<PackageIconUrl>https://github.com/DAVISOL-GmbH/ColorWheel.Core.Net/blob/main/ColorWheel.Core.Net.Windows/ColorWheelNetWindows_Package.nuspec</PackageIconUrl>
 		<RepositoryUrl>https://github.com/DAVISOL-GmbH/ColorWheel.Core.Net/tree/main</RepositoryUrl>
 		<Version>2.0.0-DEV</Version>
@@ -29,5 +29,20 @@
 		<SignAssembly>False</SignAssembly>
 		<PackageReadmeFile>README.md</PackageReadmeFile>
 	</PropertyGroup>
+
+	<ItemGroup>
+		<None Include="..\LICENSE">
+			<Pack>True</Pack>
+			<PackagePath></PackagePath>
+		</None>
+		<None Include="..\README.md">
+			<Pack>True</Pack>
+			<PackagePath></PackagePath>
+		</None>
+		<None Include="ColorWheel_NugetImage.png">
+			<Pack>True</Pack>
+			<PackagePath></PackagePath>
+		</None>
+	</ItemGroup>
 
 </Project>
