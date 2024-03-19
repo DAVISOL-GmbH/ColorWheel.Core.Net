@@ -59,11 +59,11 @@ jobs:
       msbuildArguments: '/p:SignAssembly=true /p:AssemblyOriginatorKeyFile=$(snkFile.secureFilePath)'
       clean: true
   - task: CopyFiles@2
-    displayName: 'Copy Files to: $(Build.ArtifactStagingDirectory)\lib\net6.0'
+    displayName: 'Copy Files to: $(Build.ArtifactStagingDirectory)\lib'
     inputs:
       SourceFolder: ColorWheel.Core.Net.Windows/bin/Release
       Contents: '**/ColorWheel.Core.*'
-      TargetFolder: $(Build.ArtifactStagingDirectory)\lib\net6.0
+      TargetFolder: $(Build.ArtifactStagingDirectory)\lib
       CleanTargetFolder: true
       OverWrite: true
       flattenFolders: true
